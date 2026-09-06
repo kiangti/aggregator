@@ -1,0 +1,4 @@
+proxies:
+  - {name: 🇭🇰 HK, server: hk200m.jiasu.asia, port: 50000, type: trojan, password: 5c5615d6-16eb-4578-ac45-dcfa271fd10f, sni: hk200m.jiasu.asia, skip-cert-verify: false, udp: true}
+  - {name: 443, server: us3.vp1000.net, port: 443, type: vmess, uuid: 1adfe180-6b25-4736-a972-0df71de18479, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "%2Fcp100vp800kkkdsnx", headers: {Host: us3.vp1000.net}}, udp: true}
+  - {name: 🇯🇵 JP, server: jp200m.jiasu.asia, port: 50000, type: trojan, password: 5c5615d6-16eb-4578-ac45-dcfa271fd10f, sni: jp200m.jiasu.asia, skip-cert-verify: false, udp: true}
